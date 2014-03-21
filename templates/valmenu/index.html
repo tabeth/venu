@@ -1,13 +1,104 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Astral 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% load static %}
+
 <html>
 	<head>
-		<title> Venu - an minimalist valentine menu </title>
+		<title>venu - a better valentine menu</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" />
+		<script src="{% static 'js/jquery.min.js' %}"></script>
+		<script src="{% static 'js/skel.min.js' %}"></script>
+		<script src="{% static 'js/init.js' %}"></script>
+			<link rel="stylesheet" href="{% static 'css/skel-noscript.css' %}" />
+			<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+			<link rel="stylesheet" href="{% static 'css/style-desktop.css' %}" />
+			<link rel="stylesheet" href="{% static 'css/noscript.css' %}" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
+	<body class="homepage">
 
-	<body>
-		<h1> Venu says ... </h1>
-		Howdy! <strong>{{ boldmessage }}</strong><br />
-		<a href="/valmenu/about">About</a><br />
+		<!-- Wrapper-->
+			<div id="wrapper">
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="fa fa-home active"><span>Home</span></a>
+						<a href="#breakfast" class="fa fa-folder"><span>Breakfast</span></a>
+						<a href="#lunch" class="fa fa-envelope"><span>Lunch</span></a>
+						<a href="#dinner" class="fa fa-envelope"><span>Dinner</span></a>
+						<a href="http://tabeth.com/about/" ><span>About</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Hi. Welcome to venu.</h1>
+									<span class="byline">Text 970-366-3441 to get the menu texted to you</span>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="jumplink arrow fa fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Breakfast --> 
+							<article id="breakfast" class="panel">
+								<header>
+									<h2>Breakfast</h2>
+								</header>
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+									luctus elit eget interdum.
+								</p>
+							</article>
+
+						<!-- Lunch --> 
+							<article id="lunch" class="panel">
+								<header>
+									<h2>Lunch</h2>
+								</header>
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+									luctus elit eget interdum.
+								</p>
+							</article>
+
+						<!-- Dinner --> 
+							<article id="dinner" class="panel">
+								<header>
+									<h2>Dinner</h2>
+								</header>
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+									luctus elit eget interdum.
+								</p>
+							</article>
+
+						
+		
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="links">
+							<li>&copy; Jane Doe</li>
+							<li>Images : <a href="http://fotogrph.com/">fotogrph</a></li>
+							<li>Design : <a href="http://html5up.net/">HTML5 UP</a></li>
+						</ul>
+					</div>
+		
+			</div>
+
 	</body>
-
 </html>
