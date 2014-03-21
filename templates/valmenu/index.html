@@ -43,7 +43,8 @@
 							<article id="me" class="panel">
 								<header>
 									<h1>Hi. Welcome to venu.</h1>
-									<span class="byline">Text 970-366-3441 to get the menu texted to you</span>
+									<span class="byline">Text 970-FOOD-441 (970-366-3441) to get the menu texted to you<br /></span>
+									
 								</header>
 								<a href="#breakfast" class="jumplink pic">
 									<span class="jumplink arrow fa fa-chevron-right"><span>See my work</span></span>
@@ -87,6 +88,8 @@
 										{% endif %}			
 										{% if breakfast10 %}
 										<li>{{breakfast10}}</li>
+										{% else %}
+											<strong> Sorry, looks like there isn't breakfast today. :(</strong>
 										{% endif %}
 									</ul>
 								{% else %}

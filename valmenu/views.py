@@ -20,9 +20,6 @@ def index(request):
 	#Foods... This isn't in a model because the model implementation will be a bit a different
 	#than what I'm going for at the moment. Eventually this will be deprecated.
 
-	breakfast = valentine.createMenu('Brekafast')
-	lunch = valentine.createMenu('Lunch')
-	dinner = valentine.createMenu('Dinner')
 
 	context_dict = {
 
