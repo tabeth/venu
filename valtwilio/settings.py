@@ -22,6 +22,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+SETTINGS_DIR = os.path.dirname(__file__)
+PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
+PROJECT_PATH = os.path.abspath(PROJECT_PATH)
+TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
 
 # Quick-start development settings - unsuitable for production
@@ -34,6 +38,12 @@ SECRET_KEY = 'z!q3v0d7ooo@(ci6%^pu-f3uc!!_vem)n)x@g#*xqn95e77n(e'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+
+)
+
+
 
 ALLOWED_HOSTS = []
 
