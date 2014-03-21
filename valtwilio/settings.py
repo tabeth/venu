@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'valtwilio.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-DATABASES = {'default': dj_database_url.config(default='postgres://localhost:8000')}
+DATABASES = {'default': dj_database_url.config(default='postgres://localhost:8000/db')}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/

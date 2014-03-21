@@ -56,11 +56,44 @@
 								<header>
 									<h2>Breakfast</h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-									luctus elit eget interdum.
-								</p>
+								{% if breakfast %}
+									<ul>
+										{% if breakfast1 %}
+										<li>{{breakfast1}}</li>
+										{% endif %}
+										{% if breakfast2 %}
+										<li>{{breakfast2}}</li>
+										{% endif %}
+										{% if breakfast3 %}
+										<li>{{breakfast3}}</li>
+										{% endif %}										
+										{% if breakfast4 %}
+										<li>{{breakfast4}}</li>
+										{% endif %}
+										{% if breakfast5 %}
+										<li>{{breakfast5}}</li>
+										{% endif %}
+										{% if breakfast6 %}
+										<li>{{breakfast6}}</li>
+										{% endif %}
+										{% if breakfast7 %}
+										<li>{{breakfast7}}</li>
+										{% endif %}
+										{% if breakfast8 %}
+										<li>{{breakfast8}}</li>
+										{% endif %}
+										{% if breakfast9 %}
+										<li>{{breakfast9}}</li>	
+										{% endif %}			
+										{% if breakfast10 %}
+										<li>{{breakfast10}}</li>
+										{% endif %}
+									</ul>
+								{% else %}
+									<strong> Sorry, looks like there isn't breakfast today. :(</strong>
+								{% endif %}
+									
+								
 							</article>
 
 						<!-- Lunch --> 
@@ -68,11 +101,44 @@
 								<header>
 									<h2>Lunch</h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-									luctus elit eget interdum.
-								</p>
+							{% if lunch %}
+									<ul>
+										{% if lunch1 %}
+										<li>{{lunch1}}</li>
+										{% endif %}
+										{% if lunch2 %}
+										<li>{{lunch2}}</li>
+										{% endif %}
+										{% if lunch3 %}
+										<li>{{lunch3}}</li>
+										{% endif %}										
+										{% if lunch4 %}
+										<li>{{lunch4}}</li>
+										{% endif %}
+										{% if lunch5 %}
+										<li>{{lunch5}}</li>
+										{% endif %}
+										{% if lunch6 %}
+										<li>{{lunch6}}</li>
+										{% endif %}
+										{% if lunch7 %}
+										<li>{{lunch7}}</li>
+										{% endif %}
+										{% if lunch8 %}
+										<li>{{lunch8}}</li>
+										{% endif %}
+										{% if lunch9 %}
+										<li>{{lunch9}}</li>	
+										{% endif %}			
+										{% if lunch10 %}
+										<li>{{lunch10}}</li>
+										{% endif %}
+									</ul>
+								{% else %}
+									<strong> Sorry, looks like there isn't lunch today. :(</strong>
+								{% endif %}
+
+
 							</article>
 
 						<!-- Dinner --> 
@@ -80,11 +146,42 @@
 								<header>
 									<h2>Dinner</h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-									luctus elit eget interdum.
-								</p>
+								{% if dinner %}
+									<ul>
+										{% if dinner1 %}
+										<li>{{dinner1}}</li>
+										{% endif %}
+										{% if dinner2 %}
+										<li>{{dinner2}}</li>
+										{% endif %}
+										{% if dinner3 %}
+										<li>{{dinner3}}</li>
+										{% endif %}										
+										{% if dinner4 %}
+										<li>{{dinner4}}</li>
+										{% endif %}
+										{% if dinner5 %}
+										<li>{{dinner5}}</li>
+										{% endif %}
+										{% if dinner6 %}
+										<li>{{dinner6}}</li>
+										{% endif %}
+										{% if dinner7 %}
+										<li>{{dinner7}}</li>
+										{% endif %}
+										{% if dinner8 %}
+										<li>{{dinner8}}</li>
+										{% endif %}
+										{% if dinner9 %}
+										<li>{{dinner9}}</li>	
+										{% endif %}			
+										{% if dinner10 %}
+										<li>{{dinner10}}</li>
+										{% endif %}
+									</ul>
+								{% else %}
+									<strong> Sorry, looks like there isn't dinner today. :(</strong>
+								{% endif %}
 							</article>
 
 						
