@@ -18,6 +18,7 @@ def stripdata(string):
 
     string = string.replace('&quot;Pizza &amp; Pasta Bar&quot;', 'Pizza &amp; Pasta Bar')
     string = string.replace('&amp;', '&')
+    string = string.replace('&apos;', '\'')
     #string = string.replace('<description>', '')
 
     while ('&lt;' or '&gt;') in string:
