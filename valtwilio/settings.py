@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import dj_database_url
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 import os
 SETTINGS_DIR = os.path.dirname(__file__)
@@ -52,10 +52,6 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 
 )
-
-
-
-ALLOWED_HOSTS = []
 
 
 # Application definition

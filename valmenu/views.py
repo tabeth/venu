@@ -23,7 +23,7 @@ def index(request):
 
 	context_dict = {
 
-		'breakfast': valentine.createMenu('Breakfast'),
+		
 		'breakfast1': valentine.menu('Breakfast', 0),
 		'breakfast2': valentine.menu('Breakfast', 1),
 		'breakfast3': valentine.menu('Breakfast', 2),
@@ -35,7 +35,7 @@ def index(request):
 		'breakfast9': valentine.menu('Breakfast', 8),
 		'breakfast10': valentine.menu('Breakfast',9),
 
-		'lunch': valentine.createMenu('Lunch'),
+		
 		'lunch1': valentine.menu('Lunch', 0),
 		'lunch2': valentine.menu('Lunch', 1),
 		'lunch3': valentine.menu('Lunch', 2),
@@ -47,7 +47,6 @@ def index(request):
 		'lunch9': valentine.menu('Lunch', 8),
 		'lunch10': valentine.menu('Lunch',9),
 
-		'dinner':  valentine.createMenu('Dinner'),
 		'dinner1': valentine.menu('Dinner', 0),
 		'dinner2': valentine.menu('Dinner', 1),
 		'dinner3': valentine.menu('Dinner', 2),

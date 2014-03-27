@@ -57,7 +57,6 @@
 								<header>
 									<h2>Breakfast: 9am - 11am</h2>
 								</header>
-								{% if breakfast %}
 									<ul>
 										{% if breakfast1 %}
 										<li>{{breakfast1}}</li>
@@ -92,10 +91,7 @@
 										<li>{{breakfast10}}</li>
 										{% endif %}
 									</ul>
-								{% else %}
-									<strong> Sorry, looks like there isn't breakfast today. :(</strong>
-								{% endif %}
-									
+							
 								
 							</article>
 
@@ -104,7 +100,6 @@
 								<header>
 									<h2>Lunch: 11am - 2pm</h2>
 								</header>
-							{% if lunch %}
 									<ul>
 										{% if lunch1 %}
 										<li>{{lunch1}}</li>
@@ -137,9 +132,7 @@
 										<li>{{lunch10}}</li>
 										{% endif %}
 									</ul>
-								{% else %}
-									<strong> Sorry, looks like there isn't lunch today. :(</strong>
-								{% endif %}
+								
 
 
 							</article>
@@ -149,7 +142,6 @@
 								<header>
 									<h2>Dinner: 4:30pm - 7:30pm</h2>
 								</header>
-								{% if dinner %}
 									<ul>
 										{% if dinner1 %}
 										<li>{{dinner1}}</li>
@@ -182,9 +174,7 @@
 										<li>{{dinner10}}</li>
 										{% endif %}
 									</ul>
-								{% else %}
-									<strong> Sorry, looks like there isn't dinner today. :(</strong>
-								{% endif %}
+							
 							</article>
 
 						
