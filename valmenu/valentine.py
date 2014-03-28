@@ -89,7 +89,7 @@ def verifytolist(string):
 def createMenu(menuName):
     if menuName == 'Breakfast':
         breakfast = ''
-        rawdata = urllib2.urlopen("http://www3.amherst.edu/intranet/valentine/rss.xml")
+        rawdata = urllib2.urlopen("https://www3.amherst.edu/intranet/valentine/rss.xml")
         rawdata = str(rawdata.read())
         breakfastmenu = rawdata[findIt(rawdata, '<description>', 2):findIt(rawdata, '</description>', 2)]
         breakfastmenu = stripdata(breakfastmenu)
@@ -98,7 +98,7 @@ def createMenu(menuName):
 
     if menuName == 'Lunch':
         lunch = ''
-        rawdata = urllib2.urlopen("http://www3.amherst.edu/intranet/valentine/rss.xml")
+        rawdata = urllib2.urlopen("https://www3.amherst.edu/intranet/valentine/rss.xml")
         rawdata = str(rawdata.read())
         lunchmenu = rawdata[findIt(rawdata, '<description>', 3):findIt(rawdata, '</description>', 3)]
         lunchmenu = stripdata(lunchmenu)
@@ -107,7 +107,7 @@ def createMenu(menuName):
     
     if menuName == 'Dinner':
         dinner = ''
-        rawdata = urllib2.urlopen("http://www3.amherst.edu/intranet/valentine/rss.xml")
+        rawdata = urllib2.urlopen("https://www3.amherst.edu/intranet/valentine/rss.xml")
         rawdata = str(rawdata.read())
         dinnermenu = rawdata[findIt(rawdata, '<description>', 4):findIt(rawdata, '</description>', 4)]
         dinnermenu = stripdata(dinnermenu)
