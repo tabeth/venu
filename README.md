@@ -1,6 +1,10 @@
 venu - The Simplified Valentine Menu
 ====
 
+Update: 09/10/2014
+  Unfortunately Amherst College modified their dining menu so this script no longer works properly. The good news is that 
+  venu 2.0 will be coming soon, so this won't matter anyway. Please stay tuned! 
+  
 The first part of this program parses HTML from http://my.amherst.edu, extracing specifically the menu
 (consisting of the breakfast, lunch, and dinner). The scraper program consisted of an analysis element,
 where the data was verified for legitimacy (in order to prevent for example, an event named "Lunch", from
